@@ -23,7 +23,30 @@ section{
     padding:2rem 9%;
 }
 
+.about{
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
 
+.about .content{
+    text-align: center;
+}
+
+.about .content p{
+    font-size: 2rem;
+    color: black;
+    padding: 5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.about .content .btn a{
+    line-height: 1.5;
+}
 
 .footer .link-container {
     display: flex;
